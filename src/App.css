@@ -1,0 +1,99 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#004eff), to(#00d4ff));
+  background: linear-gradient(90deg, #004eff 0%, #00d4ff 100%);
+}
+
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  button:hover {
+    opacity: 0.9;
+  }
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.calculator .display {
+  background-color: #1a1a1a;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  color: #eee;
+  padding: 10px;
+  overflow-wrap: anywhere;
+}
+
+.calculator .display span {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.calculator .operators {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #13afce;
+}
+
+.calculator .operators button {
+  font-weight: 700;
+  background-color: #13afce;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.calculator .operators button:hover {
+  background-color: #066174;
+}
+
+.calculator .digits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.calculator .digits button {
+  -webkit-box-flex: 33%;
+      -ms-flex: 33%;
+          flex: 33%;
+  background-color: #1a1a1a;
+}
+/*# sourceMappingURL=App.css.map */
