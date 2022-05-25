@@ -5,6 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
+
+After cloning the app directory into your computer ,please run the npm install 
+command and make sure that you have the npm installed in your local machine.
+
 
 ### `npm start`
 
